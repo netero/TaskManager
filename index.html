@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Netero - Task Manager</title>
+		<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.elastic.source.js"></script>
+		<script type="text/javascript" src="js/taskManager.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		</script>
+		<link href='http://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	</head>
+	<body>
+		<div id="header">
+			<span>Netero - Task Manager</span>
+			<div>
+				<input type="file" id="fleTaskList"/><button id="btnGuardar" type="button">Guardar</button>
+			</div>
+		</div>
+		<div id="blocksWrapper">
+			<div class="pending">
+				<div class="buttonWrapper">
+					<button type="button" class="addTask">Agregar tarea</button>
+					<button type="button" class="selectAll">Sel. todas</button>
+					<button type="button" class="selectNon">Sel. ninguna</button>
+					<button type="button" class="cleanTasks">Limpiar</button>
+					<button type="button" class="nextStep">Avanzar</button>
+				</div>
+				<div class="taskWrapper">
+					<table>
+						<thead>
+							<tr>
+								<th>Sel</th>
+								<th>Actividadad</th>
+								<th>Prior</th>
+							</tr>
+						<thead>
+						<tbody>
+							
+						</tbody>
+						
+					</table>
+				</div>
+			</div>
+			<div class="working">
+				<div class="buttonWrapper">
+					<button type="button" class="addTask">Agregar tarea</button>
+					<button type="button" class="selectAll">Sel. todas</button>
+					<button type="button" class="selectNon">Sel. ninguna</button>
+					<button type="button" class="cleanTasks">Limpiar</button>
+					<button type="button" class="prevStep">Anterior</button>
+					<button type="button" class="nextStep">Avanzar</button>
+				</div>
+				<div class="taskWrapper">
+					<table>
+						<thead>
+							<tr>
+								<th>Sel</th>
+								<th>Actividadad</th>
+								<th>Prior</th>
+							</tr>
+						<thead>
+						<tbody>
+							
+						</tbody>
+						
+					</table>
+				</div>
+			</div>
+			<div class="completed">
+				<div class="buttonWrapper">
+					<button type="button" class="addTask">Agregar tarea</button>
+					<button type="button" class="selectAll">Sel. todas</button>
+					<button type="button" class="selectNon">Sel. ninguna</button>
+					<button type="button" class="cleanTasks">Limpiar</button>
+					<button type="button" class="prevStep">Anterior</button>
+				</div>
+				<div class="taskWrapper">
+					<table>
+						<thead>
+							<tr>
+								<th>Sel</th>
+								<th>Actividadad</th>
+								<th>Prior</th>
+							</tr>
+						<thead>
+						<tbody>
+							
+						</tbody>
+						
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
